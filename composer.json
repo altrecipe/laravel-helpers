@@ -1,0 +1,25 @@
+{
+    "name": "altrecipe/helpers-laravel",
+    "type": "library",
+    "description": "Some helpers classes to be shared between altRecipe projects",
+    "keywords": ["helpers","internal","altRecipe"],
+    "homepage": "https://altrecipe.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Kozachenko",
+            "email": "mk@altrecipe.com",
+            "role": "CTO"
+        }
+    ],
+    "require": {
+        "php" : "^7.3",
+        "laravel/framework": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArHelpers\\": "src"
+        }
+    }
+}
