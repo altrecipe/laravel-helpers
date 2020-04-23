@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Schema;
  * @property $id
  * @method updateOrCreate(array $uniq_value, array $new_values)
  * @method static create(array $fields)
+ * @method static update(array $attributes, array $options)
  * @method static Builder|BaseModel newModelQuery()
  * @method static Builder|BaseModel newQuery()
  * @method static Builder|BaseModel query()
